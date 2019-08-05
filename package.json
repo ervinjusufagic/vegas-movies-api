@@ -1,0 +1,22 @@
+{
+  "name": "vegas-movies-api",
+  "version": "1.0.0",
+  "description": "A Graphql API for LeoVegas",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "node server.js"
+  },
+  "author": "Ervin Jusufagic",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.4.2",
+    "mongodb": "^3.3.0-beta2",
+    "mongoose": "^5.6.7",
+    "nodemon": "^1.19.1"
+  }
+}
